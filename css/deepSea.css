@@ -1,0 +1,92 @@
+html, body, main {
+    height: 100%;
+}
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/*IDs----------------------------*/
+
+#birds {
+    width: 300px;
+    top: 10px;
+    left: -300px;
+}
+
+#boat {
+    width: 320px;
+    top: 390px;
+    left: -320px;
+}
+
+#bubbles {
+    height: 400px;
+    background-image: url(../images/bubbles.gif);
+    display: none;
+}
+
+#greens {
+    width: 200px;
+    top: 1400px;
+    left: 60%;
+    right: 40%;
+}
+
+#fish-school {
+    width: 500px;
+    top: 1000px;
+    left: -500px;
+}
+
+
+/*Backgrounds--------------------*/
+
+.scene-fixed {
+    min-height: 100%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.scene-scrolling {
+    min-height: 100%;
+}
+
+.trans-bg {
+    position: absolute;
+    width: 100%;
+    top: 600px;
+}
+
+.scene-fixed.bg1 {   
+    background-image: url(../images/oil-derrick-back.jpg);
+}
+
+.scene-fixed.bg2 {   
+    background-image: url(../images/oil-derrick-back-bellow.jpg);
+}
+
+/*Classes------------------------*/
+
+.title {
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-family: "russo one";
+    text-shadow: -5px -2px 0 #fff;
+    font-size: 40pt;
+    top: calc(100% / 2.5);
+    left: 0;
+    right: 0;
+}
+
+.animate {
+    position: absolute;
+    display: block;        
+}
+
+.hide {
+    visibility: hidden;
+}
